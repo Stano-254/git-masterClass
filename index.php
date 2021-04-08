@@ -7,11 +7,29 @@
     <meta name="description" content="this is apersonal safe space to use to face my future, join me, you never know it might help you, mold yours ">
     <meta name="keywords" content="personal space, stano, darker,stano henry, stano blog">
     <title>Stano the Developer</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+    <style>
+        body{
+            background-image: url('./background.png');
+            background-repeat: no-repeat;
+            background-position: right;
+        
+            background-size: contain;
+        }
+    </style>
 </head>
 <body>
+<div class="mainwrapper">
     <?php include_once('nav.html')?>
-    <h1 id="herotext">lets talk about the future</h1>
+    
+        <div class="heroContent">
+            <h1 id="herotext">lets talk about the future</h1>
+
+            <h3>lets make something awesome out of this</h3>
+        </div>
+
+    </div>
+   
 
 
     <footer>@2021</footer>

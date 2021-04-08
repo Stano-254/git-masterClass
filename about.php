@@ -11,8 +11,12 @@
 </head>
 <body>
    <?php include_once('nav.html')?>
-    <h1 id="herotext">where the past and future co-exist, </h1>
-    <h3>where the climp on ladder of life gets real</h3>
+    <div class="quote">
+        <p><span id="qt">"</span>never accept a shit from someone with none<span id="qt">"</span><blockquote>mary angalo</blockquote></p>
+    </div>
+
+    <!-- <h1 id="herotext">where the past and future co-exist, </h1>
+    <h3>where the climp on ladder of life gets real</h3> -->
 
 
 
