@@ -21,11 +21,13 @@ header{
 #herotext{
     display:inline-flex;
 }
-
+a{
+    text-decoration: none;
+}
 #navbar{
  height:100%;
 }
-#navbar div{
+.brand,.nav_item{
     display:inline-flex;
     flex-direction: column;
     text-align: end;
@@ -33,9 +35,8 @@ header{
    
 
 }
-#navbar a{
-    text-decoration: none;
-}
+ 
+
 .navLink{
    
     color: rgba(246, 244, 244, 0.397);
@@ -53,7 +54,13 @@ header{
     font-weight: 900;
     padding:0 20px; 
 }
-
+a:active{
+  
+    color:rgb(255, 250, 250);
+}
+a:focus{
+    color:rgb(255, 250, 250); 
+}
 
 
 footer{
