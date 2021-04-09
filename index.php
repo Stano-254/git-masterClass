@@ -21,17 +21,28 @@
 <body>
 <div class="mainwrapper">
     <?php include_once('nav.html')?>
+            <div>
+            
+            </div>
     
         <div class="heroContent">
             <h1 id="herotext">lets talk about the future</h1>
 
             <h3>lets make something awesome out of this</h3>
+             
+            <div class="herodesc">
+             <p>there  is state of emergiency lets engage at it and create a future we can be 
+                proud of. looking forward to engage on personal level to make it happen
+            </p>
+             </div>
+            
         </div>
+       
 
     </div>
    
 
 
-    <footer>@2021</footer>
+    
 </body>
 </html>

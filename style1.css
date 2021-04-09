@@ -14,15 +14,18 @@ html,body{
 }
 
 header{
+    padding-top: 50px;
    margin-left:100px;
     height:3em;
     color:rgb(70, 59, 223);
     width: 100%;
     padding:20px;
+    transform:skew(20deg)
 
 }
 #herotext{
     display:inline-flex;
+    color:rgba(27, 24, 24, 0.52);
 }
 a{
     text-decoration: none;
@@ -41,10 +44,10 @@ a{
 
 .navLink{
    
-    color: rgba(41, 39, 39, 0.904);
+    color: rgba(3, 3, 3, 0.411);
     display:inline-block;
     font-size: 1.5em;
-    padding:0 20px;
+    padding:30px 20px;
     
 }
 .brand a{
@@ -70,10 +73,20 @@ a:focus{
     margin-left:-150px;
     background-color:rgb(255, 255, 255);
     transform: skew(-20deg);
+    position:relative;
 }
 .heroContent{
-    margin:40px 150px;
+   
+    margin:190px 200px;
     padding:20px;
+    width:60%;
+    transform:skew(20deg);
+    position:absolute;
+}
+.herodesc{
+    padding-top:10px;
+    text-shadow:2px 5px 2px grey;
+    font-size: 1.2em;
 }
 
 footer{

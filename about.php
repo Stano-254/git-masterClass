@@ -11,8 +11,33 @@
 </head>
 <body>
    <?php include_once('nav.html')?>
-    <div class="quote">
-        <p><span id="qt">"</span>never accept a shit from someone with none<span id="qt">"</span><blockquote>mary angalo</blockquote></p>
+   <div class="abt_container">
+   <div class="abt_content">
+   <div class="quote">
+        <img src="profile.jpg" alt="stano uhuru park">
+    </div>
+        <h4 class="bio">Bio data</h4>
+        <p class="bio-content">Ever thought of term techcruch, I'm self-made enterprenuer
+            ethusiastic about utilizing every opportunity more 
+            so in the tech world. I'm a graduate of maseno university school of computerscience
+            and love interacting with people from diversed background, 
+            like sharing new ideas that will drive the economy.
+        </p>
+        <p class="bio-content">Ever thought of term techcruch, I'm self-made enterprenuer
+            ethusiastic about utilizing every opportunity more 
+            so in the tech world. I'm a graduate of maseno university school of computerscience
+            and love interacting with people from diversed background, 
+            like sharing new ideas that will drive the economy.
+        </p>
+        <p class="bio-content">Ever thought of term techcruch, I'm self-made enterprenuer
+            ethusiastic about utilizing every opportunity more 
+            so in the tech world. I'm a graduate of maseno university school of computerscience
+            and love interacting with people from diversed background, 
+            like sharing new ideas that will drive the economy.
+        </p>
+        </div>
+    
+   
     </div>
 
     <!-- <h1 id="herotext">where the past and future co-exist, </h1>
@@ -20,6 +45,6 @@
 
 
 
-    <footer>@2021</footer>
+    <!-- <footer>@2021</footer> -->
 </body>
 </html>
