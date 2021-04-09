@@ -14,24 +14,45 @@ html,body{
 }
 
 header{
-    padding-top: 50px;
-   margin-left:100px;
+    /* padding-top: 50px; */
+   /* margin-left:100px; */
+    margin-left:10px;
+    
     height:3em;
     color:rgb(70, 59, 223);
     width: 100%;
-    padding:20px;
+    padding:10px;
     transform:skew(20deg)
 
 }
 #herotext{
     display:inline-flex;
-    color:rgba(27, 24, 24, 0.52);
+    color:rgb(17, 24, 39);
+    font-size:3.5em;
+
+}
+#herotextCategory{
+ color:rgb(79, 70, 229);
+ font-weight:bolder;
+ font-size:3em;
+ text-transform: capitalize;
+ padding-top:1.5vmin;
+}
+#herodesc{
+    padding-top:2vmin;
+    text-align: justify;
+    text-justify:start;
+    font-weight: lighter;
+    color:grey;
+    font-family: serif;
 }
 a{
     text-decoration: none;
 }
 #navbar{
  height:100%;
+ margin-left:10px;
+ padding-left: 10px;;
 }
 .brand,.nav_item{
     display:inline-flex;
@@ -44,11 +65,14 @@ a{
 
 .navLink{
    
-    color: rgba(3, 3, 3, 0.411);
+    color: rgba(3, 3, 3, 0.335);
     display:inline-block;
     font-size: 1.5em;
     padding:30px 20px;
     
+}
+.navlink:hover{
+    color: rgba(3, 3, 3, 0.808);
 }
 .brand a{
    
@@ -62,10 +86,10 @@ a{
 }
 a:active{
   
-    color:rgb(255, 250, 250);
+    color:rgb(8, 8, 8);
 }
 a:focus{
-    color:rgb(255, 250, 250); 
+    color:rgb(107, 103, 103); 
 }
 .mainwrapper{
     height:100%;
@@ -77,11 +101,13 @@ a:focus{
 }
 .heroContent{
    
-    margin:190px 200px;
+      margin:12% 150px;  
+    overflow:hidden;
+    /* margin:10px auto; */
     padding:20px;
     width:60%;
     transform:skew(20deg);
-    position:absolute;
+    float:left;
 }
 .herodesc{
     padding-top:10px;

@@ -11,8 +11,8 @@
 </head>
 <body>
    <?php include_once('nav.html')?>
-    <h1 id="herotext">lets talk about the future</h1>
-
+    <h1 id="herotext">Stano Darker</h1>
+    <h2 id="herocategory">Stano Darker</h1>
 
 
     <footer>@2021</footer>

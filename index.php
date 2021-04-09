@@ -26,15 +26,15 @@
             </div>
     
         <div class="heroContent">
-            <h1 id="herotext">lets talk about the future</h1>
+            <h1 id="herotext">Stano darker</h1>
 
-            <h3>lets make something awesome out of this</h3>
+            <h2 id="herotextCategory">web developer</h3>
              
-            <div class="herodesc">
-             <p>there  is state of emergiency lets engage at it and create a future we can be 
-                proud of. looking forward to engage on personal level to make it happen
-            </p>
-             </div>
+            <h3 id="herodesc"> want some e-commerce site,blog,
+            or any other kind of website build for you, get in touch, also be sure to check some of our 
+            previous work and testimonies
+            </h3>
+          
             
         </div>
        
