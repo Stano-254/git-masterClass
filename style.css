@@ -75,14 +75,14 @@ a:focus{
  
     background-color: rgba(26, 27, 31, 0.164);
 
-    width:300px;
+    width:380px;
     height:400px;
     background-size: cover;
     align-items: center;
-    /* border-radius:1000px; */
-    border-bottom-left-radius:10px;
-    border-top-right-radius:50%;
-    border-bottom-right-radius:50%;
+    border-radius:1000px;
+    /* border-bottom-left-radius:10px; */
+    /* border-top-right-radius:50%; */
+    /* border-bottom-right-radius:50%; */
     
     box-shadow: 2px 10px 10px -2px; 
     overflow:hidden;
@@ -97,10 +97,10 @@ a:focus{
 .quote img{
     width:100%;
  }
- .abt_container{
+ .container{
      /* border:2px solid grey; */
      border-radius:10px;
-     border:1px solid gray;
+     /* border:1px solid gray; */
      padding:10px;
      margin: 10px 40px;
      
@@ -132,3 +132,35 @@ footer{
 
 
 } 
+.contactinfo{
+    width:50%;
+    float:left;
+}
+.contactform{
+    width:50%;
+    float:right;
+}
+.formgroup{
+  width:100%; 
+  margin:10px;
+  
+  /* box-shadow:1px 0 0 1px; */
+  outline:none;
+  /* border:none; */
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.554);
+    padding:5px 10px;
+}
+label{
+padding:10px;
+margin-top:10px
+}
+legend{
+    color:blue;
+    text-transform: capitalize;
+    margin:10px;
+    font-weight: bolder;
+    
+}
